@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>She Can Foundation</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">She Can Foundation</div>
+
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
+        <a href="#volunteer">Volunteer</a>
+    </div>
+
+    <button class="toggle" onclick="toggleMode()">
+        🌙 Dark Mode
+    </button>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>Empowering Women,<br>Changing Futures</h1>
+
+        <p>
+            Supporting women and girls through education,
+            mentorship, skill development, and opportunities
+            to build a brighter future.
+        </p>
+
+        <a href="#volunteer" class="btn">
+            Join Our Mission
+        </a>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=900&q=80"
+             alt="Women Empowerment">
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h2 class="section-title">About Us</h2>
+
+    <p>
+        She Can Foundation is a non-profit organization dedicated to empowering
+        women and young girls through education, leadership development,
+        mentorship, career guidance, and community support initiatives.
+        We believe every woman deserves the opportunity to learn, lead,
+        and succeed.
+    </p>
+
+</section>
+
+<section class="impact" id="impact">
+
+    <h2 class="section-title">Our Impact</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>500+</h3>
+            <p>Girls Educated</p>
+        </div>
+
+        <div class="card">
+            <h3>120+</h3>
+            <p>Volunteers</p>
+        </div>
+
+        <div class="card">
+            <h3>80+</h3>
+            <p>Programs Conducted</p>
+        </div>
+
+        <div class="card">
+            <h3>20+</h3>
+            <p>Communities Reached</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="volunteer">
+
+    <h2 class="section-title">Become a Volunteer</h2>
+
+  <form id="volunteerForm">
+
+    <input
+        type="text"
+        id="name"
+        placeholder="Your Name"
+        required>
+
+    <input
+        type="email"
+        id="email"
+        placeholder="Your Email"
+        required>
+
+   <textarea id="message" placeholder="Why would you like to join us?" required></textarea>
+    <button type="submit" class="btn">
+        Submit
+    </button>
+
+    <p id="successMessage"></p>
+
+</form>
+</section>
+
+<footer>
+
+    <h3>She Can Foundation</h3>
+
+    <p>
+        Empowering women through education, opportunity and confidence.
+    </p>
+
+    <p>
+        © 2026 She Can Foundation | All Rights Reserved
+    </p>
+
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
